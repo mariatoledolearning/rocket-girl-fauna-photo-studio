@@ -71,3 +71,14 @@ body {
   margin-top: 50px;
   margin-bottom: 30px;
 }
+.about-info {
+  margin-top: 30px;
+}
+
+.footer-info {
+  background-color: aquamarine;
+  height: 50px;
+}
+.footer-text {
+text-align: end;
+}
