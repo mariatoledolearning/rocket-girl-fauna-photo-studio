@@ -1,3 +1,9 @@
+
+@font-face {
+  font-family: 'ApercuPro-Regular';
+  src: url('ApercuPro-Regular.ttf');
+}
+
 html,
 body {
   overflow-x: hidden; /* Prevent scroll on narrow devices */
@@ -23,8 +29,9 @@ body {
     padding-left: 1rem;
     overflow-y: auto;
     visibility: hidden;
-    background-color: #343a40;
+    background-color: white;
     transition: transform .3s ease-in-out, visibility .3s ease-in-out;
+    font-family:ApercuPro-Regular;
   }
   .offcanvas-collapse.open {
     visibility: visible;
@@ -45,7 +52,9 @@ body {
   padding-bottom: 1rem;
   margin-top: -1px;
   overflow-x: auto;
-  color: rgba(255, 255, 255, .75);
+  font-family:ApercuPro-Regular;
+  color: #A6C9E9;
+  background: linear-gradient(90deg, rgba(95,94,111,1) 0%, rgba(166,201,233,1) 35%, rgba(88,141,189,1) 100%);
   text-align: center;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
@@ -55,7 +64,7 @@ body {
   padding-top: .75rem;
   padding-bottom: .75rem;
   font-size: .875rem;
-  color: #6c757d;
+  color: #A6C9E9;
 }
 
 .nav-underline .nav-link:hover {
@@ -64,6 +73,7 @@ body {
 
 .nav-underline .active {
   font-weight: 500;
+  color: #A6C9E9;
   color: #343a40;
 }
 
@@ -81,6 +91,7 @@ body {
 
 
 .form-user {
+  font-family:ApercuPro-Regular;
   margin-top: 50px;
   margin-bottom: 30px;å
 }
@@ -89,12 +100,14 @@ body {
 }
 
 .btn-primary{
+  font-family:ApercuPro-Regular;
   color: white;
   background-color:  #A6C9E9;
   border-color:#A6C9E9;
 }
 
 .about-info {
+  font-family:ApercuPro-Regular;
   margin-top: 30px;
   text-align:left;
 }
@@ -105,12 +118,16 @@ body {
 }
 
 .footer-text {
+  font-family:ApercuPro-Regular;
   padding-top: 25px;
   text-align: center;
 }
 
 .titulo_footer{
-  padding-bottom: 10px;
+  font-family:ApercuPro-Regular;
+  
+  
+  
   text-align: center;
 }
 
