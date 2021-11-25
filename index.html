@@ -32,19 +32,19 @@
     <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Dashboard</a>
+          <a class="nav-link active" aria-current="page" href="#flyer">Descargar App</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="#">Notifications</a>
+          <a class="nav-link active" href="#about_us">Sobre nosotros</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="#">Profile</a>
+          <a class="nav-link active" href="#form_user">Contáctanos</a>
         </li>
       </ul>
       <!-- buscador -->
       <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
+        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+        <button class="btn btn-outline-success boton_buscar" type="submit">Buscar</button>
       </form>
     </div>
   </div>
@@ -101,28 +101,36 @@
     </div>
   </div>
 <!-- Seccion sobre nosotros -->
-  <div class="flyer-info">
+  <div class="flyer-info" id="flyer">
     <img src="./images/Flyer.jpg" class="img-fluid" alt="...">
   </div>
+  
+  <div class="container_1">
+    <div class="row">
+      <div class="col-md-0"></div>
+        <div class="col-md-4 about-info" id="about_us">
+          <h1>Sobre nosotros</h1>
+          <p>Es un emprendimiento con 8 años de experiencia ofreciendo sesiones de fotografía para
+            mascotas, donando a su vez un porcentaje de sus ganancias para fomentar la ADOPCIÓN
+            DE MASCOTAS.El programa de adopción de mascotas consiste en tomarle fotografías a los animales y
+            publicar sus perfiles en redes sociales como IG y FB, a través de sus Campañas Adopt Me. 
+            El programa Adopt Me nació porque muchas personas se acercaban a FAUNA PHOTO STUDIO
+            pensando en que ellos eran un refugio de animales , y no, ellos solo toman fotos a los
+            animales que estån en adopción y luego pagan publicidad en redes sociales para que mas
+            personas vean el caso, y el animal sea adoptado. También contamos con el programa casa cuna,
+            los rescatistas se hacen cargo del animal hasta poderlo estabilizar, 
+            de ese modo luego podrá ser fotografiado y puesto en adopción.</p>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-4 Img-4">
+          <img src="./images/Img-4.jpg" with="625" height="625" alt="">
+      </div>  
+  
+  </div></div>
 
-  <div class="about-info">
-    <h1>Sobre nosotros</h1>
-    <p>Es un emprendimiento con 8 años de experiencia ofreciendo sesiones de fotografía para
-      mascotas, donando a su vez un porcentaje de sus ganancias para fomentar la ADOPCIÓN
-      DE MASCOTAS.</p>
-    <p>El programa de adopción de mascotas consiste en tomarle fotografías a los animales y
-        publicar sus perfiles en redes sociales como IG y FB, a través de sus CAMPANAS ADOPT
-        ME.</p>
-    <h4>Adopt me</h4>
-    <p>Este programa nació porque muchas personas se acercaban a FAUNA PHOTO STUDIO
-          pensando en que ellos eran un refugio de animales , y no, ellos solo toman fotos a los
-          animales que estån en adopción y luego pagan publicidad en redes sociales para que mas
-          personas vean el caso, y el animal sea adoptado. También contamos con el programa casa cuna,
-          los rescatistas se hacen cargo del animal hasta poderlo estabilizar, 
-          de ese modo luego podrá ser fotografiado y puesto en adopción.</p>
-  </div>
+
 <!-- seccion formulario contacto -->
-  <div class="form-user">
+  <div class="form-user" id="form_user">
    <h3>Contáctanos</h3>
     <div class="form-container">
       <form class="row g-3">
@@ -135,7 +143,7 @@
           <input type="text" class="form-control" id="last_name">
         </div>
         <div class="col-6">
-          <label for="email" class="form-label">Correo</label>
+          <label for="email" class="form-label">Correo electrónico</label>
           <input type="email" class="form-control" id="email">
         </div>
         <div class="col-md-6">
@@ -150,7 +158,7 @@
         </div>
         
         <div class="col-12">
-          <button type="submit" class="btn btn-primary">Enviar</button>
+          <button type="submit" class="btn btn-primary boton_enviar">Enviar</button>
         </div>
       </form>
     </div>
@@ -166,21 +174,21 @@
         <img src="./images/facebookpng.png"  class="rounded float-start socialicon" alt="...">
       </div>
       <div class="col-md-1">
-        <img src="./images/facebookpng.png"  class="rounded float-start socialicon" alt="...">
+        <img src="./images/instagram.jpeg"  class="rounded float-start socialicon" alt="...">
       </div>
       <div class="col-md-1">
-        <img src="./images/facebookpng.png"  class="rounded float-start socialicon" alt="...">
+        <img src="./images/gmail.png"  class="rounded float-start socialicon" alt="...">
       </div>
       <div class="col-md-1">
-        <img src="./images/facebookpng.png"  class="rounded float-start socialicon" alt="...">
+        <img src="./images/tiktok.png"  class="rounded float-start socialicon" alt="...">
       </div>
     </div>
 
     <div class="row">
       <div class="col">
-        <h6 class=footer-text>Todos los Derechos Reservados Copyright 2021
-          Fauna Photo Studio
+        <h6 class=footer-text>Todos los Derechos Reservados. Copyright 2021
         </h6>
+        <H5 class=titulo_footer> Fauna Photo Studio</H5>
     </div>
   </div>
   </div>

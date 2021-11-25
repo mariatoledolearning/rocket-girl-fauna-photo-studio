@@ -2,6 +2,11 @@ html,
 body {
   overflow-x: hidden; /* Prevent scroll on narrow devices */
 }
+.socialicon {
+  padding-top: 25px;
+  width: 70px;
+  height: 70px;
+}
 
 body {
   padding-top: 56px;
@@ -62,6 +67,14 @@ body {
   color: #343a40;
 }
 
+.boton_buscar:hover{
+  background-color: #A6C9E9;
+}
+.btn-outline-success{
+  color: #A6C9E9 ;
+  border-color: #A6C9E9;
+}
+
 .text-white-50 { color: rgba(255, 255, 255, .5); }
 
 .bg-purple { background-color: #6f42c1; }
@@ -69,22 +82,38 @@ body {
 
 .form-user {
   margin-top: 50px;
-  margin-bottom: 30px;
+  margin-bottom: 30px;å
 }
+.boton_enviar:hover{
+  background-color:#588dbd;
+}
+
+.btn-primary{
+  color: white;
+  background-color:  #A6C9E9;
+  border-color:#A6C9E9;
+}
+
 .about-info {
   margin-top: 30px;
-  text-align: center;
+  text-align:left;
 }
 
 .footer-info {
-  background-color: aquamarine;
-  height: 100px;
+  background-color:#A6C9E9;
+  height: 150px;
 }
+
 .footer-text {
-text-align: center;
+  padding-top: 25px;
+  text-align: center;
 }
 
-.socialicon {
-width: 70px;
+.titulo_footer{
+  padding-bottom: 10px;
+  text-align: center;
+}
 
+.Img-4{
+padding-top: 35px;
 }
