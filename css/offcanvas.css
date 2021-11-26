@@ -9,8 +9,8 @@ body {
   overflow-x: hidden; /* Prevent scroll on narrow devices */
 }
 .socialicon {
-  padding-top: 25px;
- 
+  margin-top: 25px;
+  align-content: center;
 }
 
 .padding-0 {
