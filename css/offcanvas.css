@@ -115,6 +115,9 @@ body {
   text-align:left;
 }
 
+.texttusconsultas{
+  color: gray;
+}
 .footer-info {
   background-color:#A6C9E9;
   height: 150px;
