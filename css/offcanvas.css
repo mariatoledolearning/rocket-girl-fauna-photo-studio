@@ -56,8 +56,9 @@ body {
   margin-top: -1px;
   overflow-x: auto;
   font-family:ApercuPro-Regular;
-  color: #A6C9E9;
-  background: linear-gradient(90deg, rgba(95,94,111,1) 0%, rgba(166,201,233,1) 35%, rgba(88,141,189,1) 100%);
+  border-color: white;
+  color: white;
+  background-color: #A6C9E9;
   text-align: center;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
