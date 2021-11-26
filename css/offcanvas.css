@@ -10,8 +10,11 @@ body {
 }
 .socialicon {
   padding-top: 25px;
-  width: 70px;
-  height: 70px;
+ 
+}
+
+.padding-0 {
+  padding: 0px !important;
 }
 
 body {
