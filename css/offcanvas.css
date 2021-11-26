@@ -122,15 +122,13 @@ body {
 
 .footer-text {
   font-family:ApercuPro-Regular;
-  padding-top: 25px;
+  margin-top: 25px;
   text-align: center;
 }
 
 .titulo_footer{
   font-family:ApercuPro-Regular;
-  
-  
-  
+  margin-bottom: 50px;
   text-align: center;
 }
 
